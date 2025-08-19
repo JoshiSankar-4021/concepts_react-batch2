@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 function Counter(){
+    const navigate=useNavigate();
     const [num,setnum]=useState(0);
 
     function increment(){
@@ -25,6 +27,9 @@ function Counter(){
             <button onClick={decrement}>Decrement1</button><br/>
             <button onClick={increment1}>Increment2</button>
             <button onClick={decrement1}>Decrement2</button><br/>
+            
+            <button onClick={()=>{navigate("/images")}}>Navigate to images</button>
+            <button onClick={()=>{navigate("/classcompent")}}>Navigate to classcomponent</button>
         </div>
     );
 }
