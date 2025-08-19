@@ -6,8 +6,11 @@ import './App.css';
 import AddImages from './images/AddImages.jsx';
 import Counter from './counter/Counter.jsx'
 import { Route,Routes } from 'react-router-dom';
+import Nav from './nav/Nav.jsx';
 function App(){
   return(
+    <>
+      <Nav/>    
     <Routes>
       <Route path="/" element={<Counter/>}/>
       <Route path="/images" element={<AddImages/>}/>
@@ -15,6 +18,7 @@ function App(){
       <Route path="/classcompent" element={<Cc/>}/>
       <Route path="/fc" element={<Fc/>}/>
     </Routes>
+    </>
   );
 }
 export default App;
