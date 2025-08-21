@@ -6,7 +6,10 @@ import './App.css';
 import AddImages from './images/AddImages.jsx';
 import Counter from './counter/Counter.jsx'
 import { Route,Routes } from 'react-router-dom';
+import Padding from './css/padding/Pad.jsx';
 import Nav from './nav/Nav.jsx';
+import Border from './css/border/borders.jsx';
+import Margins from './css/margin/Margins.jsx';
 function App(){
   return(
     <>
@@ -17,6 +20,10 @@ function App(){
                                     {/* AddImages() */}
       <Route path="/classcompent" element={<Cc/>}/>
       <Route path="/fc" element={<Fc/>}/>
+      <Route path="/padding" element={<Padding/>}/>
+      <Route path="/border" element={<Border/>}/>
+      <Route path="/margin" element={<Margins/>}/>
+
     </Routes>
     </>
   );

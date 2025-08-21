@@ -8,6 +8,9 @@ function Nav(){
             <NavLink to="/images">Images</NavLink><br/>
             <NavLink to="/fc">Functional Component</NavLink><br/>
             <NavLink to="/classcompent">Class Component</NavLink><br/>
+            <NavLink to="/Padding">Padding</NavLink><br/>
+            <NavLink to="/border">Border</NavLink><br/>
+            <NavLink to="/margin">Margin</NavLink><br/>
         </div>
     )
 }
