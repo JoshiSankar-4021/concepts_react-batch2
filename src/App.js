@@ -10,12 +10,13 @@ import Padding from './css/padding/Pad.jsx';
 import Nav from './nav/Nav.jsx';
 import Border from './css/border/borders.jsx';
 import Margins from './css/margin/Margins.jsx';
+import Card from './card/card.jsx';
 function App(){
   return(
     <>
       <Nav/>    
     <Routes>
-      <Route path="/" element={<Counter/>}/>
+      <Route path="/counter" element={<Counter/>}/>
       <Route path="/images" element={<AddImages/>}/>
                                     {/* AddImages() */}
       <Route path="/classcompent" element={<Cc/>}/>
@@ -23,6 +24,7 @@ function App(){
       <Route path="/padding" element={<Padding/>}/>
       <Route path="/border" element={<Border/>}/>
       <Route path="/margin" element={<Margins/>}/>
+      <Route path="/card" element={<Card/>}/>
 
     </Routes>
     </>

@@ -1,16 +1,22 @@
+/* eslint-disable react/jsx-no-undef */
 
 import { NavLink } from "react-router-dom";
+import './Nav.css';
 
 function Nav(){
     return(
         <div>
-            <NavLink to="/">HOME</NavLink><br/>
-            <NavLink to="/images">Images</NavLink><br/>
-            <NavLink to="/fc">Functional Component</NavLink><br/>
-            <NavLink to="/classcompent">Class Component</NavLink><br/>
-            <NavLink to="/Padding">Padding</NavLink><br/>
-            <NavLink to="/border">Border</NavLink><br/>
-            <NavLink to="/margin">Margin</NavLink><br/>
+            <div style={{display:'flex',gap:'10px'}}>
+                <NavLink to="/" className="navstyle">HOME</NavLink><br/>
+                <NavLink to="/images" className="navstyle">Images</NavLink><br/>
+                <NavLink to="/fc" className="navstyle">Functional Component</NavLink><br/>
+                <NavLink to="/classcompent" className="navstyle">Class Component</NavLink><br/>
+                <NavLink to="/Padding" className="navstyle">Padding</NavLink><br/>
+                <NavLink to="/border" className="navstyle">Border</NavLink><br/>
+                <NavLink to="/margin" className="navstyle">Margin</NavLink><br/>
+                <NavLink to="/card" className="navstyle">CARDS</NavLink><br/>
+
+            </div>
         </div>
     )
 }
