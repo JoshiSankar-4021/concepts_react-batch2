@@ -15,6 +15,7 @@ function Nav(){
                 <NavLink to="/border" className="navstyle">Border</NavLink><br/>
                 <NavLink to="/margin" className="navstyle">Margin</NavLink><br/>
                 <NavLink to="/card" className="navstyle">CARDS</NavLink><br/>
+                <NavLink to="/forms" className="navstyle">FORMS</NavLink><br/>
 
             </div>
         </div>

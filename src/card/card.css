@@ -5,6 +5,8 @@
     height: auto;
     width: 200px;
     background-color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 .Cardhome{

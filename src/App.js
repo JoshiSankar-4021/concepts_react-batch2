@@ -11,6 +11,7 @@ import Nav from './nav/Nav.jsx';
 import Border from './css/border/borders.jsx';
 import Margins from './css/margin/Margins.jsx';
 import Card from './card/card.jsx';
+import Forms from './form/Forms.jsx';
 function App(){
   return(
     <>
@@ -25,6 +26,7 @@ function App(){
       <Route path="/border" element={<Border/>}/>
       <Route path="/margin" element={<Margins/>}/>
       <Route path="/card" element={<Card/>}/>
+      <Route path="/forms" element={<Forms/>}/>
 
     </Routes>
     </>
