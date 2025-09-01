@@ -12,6 +12,7 @@ import Border from './css/border/borders.jsx';
 import Margins from './css/margin/Margins.jsx';
 import Card from './card/card.jsx';
 import Forms from './form/Forms.jsx';
+import Rendering from './rendering/Rendering.jsx';
 function App(){
   return(
     <>
@@ -27,7 +28,7 @@ function App(){
       <Route path="/margin" element={<Margins/>}/>
       <Route path="/card" element={<Card/>}/>
       <Route path="/forms" element={<Forms/>}/>
-
+      <Route path="/rendering" element={<Rendering/>}/>
     </Routes>
     </>
   );
