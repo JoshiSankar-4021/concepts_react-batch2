@@ -1,0 +1,82 @@
+
+@keyframes fadein {
+    from{
+        opacity:0;
+    }to{
+        opacity:1;
+    }
+}
+.FadeIn{
+    animation :fadein 10s ease infinite;
+}
+
+@keyframes fadeout{
+    from{
+        opacity:1;
+    }to{
+        opacity:0;
+    }
+}
+.FadeOut{
+    animation:fadeout 10s ease infinite;
+}
+
+@keyframes slidein-left{
+    from{
+        transform:translateX(-100%);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+.slide-in-left{
+    text-align: right;
+    animation:slidein-left 5s ease-in infinite;
+}
+
+@keyframes slidein-right{
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+.slide-in-right{
+    text-align: left;
+    animation:slidein-right 5s ease-in infinite;
+}
+
+@keyframes slidein-bottom {
+    from{
+        transform:translateY(-100%);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+.slide-in-bottom{
+    animation:slidein-bottom 10s ease-in infinite;
+}
+
+@keyframes slidein-top{
+    from{
+        transform:translateY(100%);
+    }to{
+        transform:translateY(0);
+    }
+}
+.slide-in-top{
+    text-align: right;
+    animation:slidein-top 10s ease-in infinite;
+}
+
+@keyframes pulse{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.05);}
+    100%{transform:scale(1);}
+}
+.pulse{
+    text-align: center;
+    animation:pulse 1s ease-in-out infinite;
+}

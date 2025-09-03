@@ -10,3 +10,10 @@
     color:orangered;
     border-color: orangered;
 }
+
+.navstyle:hover{
+    transform: scale(1.2);
+    color:blue;
+    font-weight: bolder;
+    border-color: blue;
+}
