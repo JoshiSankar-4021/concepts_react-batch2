@@ -18,6 +18,7 @@ function Nav(){
                 <NavLink to="/forms" className="navstyle">FORMS</NavLink><br/>
                 <NavLink to="/rendering" className="navstyle">Rendering</NavLink><br/>
                 <NavLink to="/animation" className="navstyle">Animations</NavLink><br/>
+                <NavLink to="/prebuiltanimations" className="navstyle">Pre-Built Animations</NavLink><br/>
             </div>
         </div>
     )

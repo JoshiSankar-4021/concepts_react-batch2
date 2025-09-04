@@ -14,6 +14,7 @@ import Card from './card/card.jsx';
 import Forms from './form/Forms.jsx';
 import Rendering from './rendering/Rendering.jsx';
 import Animation from './animations/Animation.jsx';
+import PrebuiltAnimations from './animations/PrebuiltAnimations.jsx';
 function App(){
   return(
     <>
@@ -31,7 +32,7 @@ function App(){
       <Route path="/forms" element={<Forms/>}/>
       <Route path="/rendering" element={<Rendering/>}/>
       <Route path="/animation" element={<Animation/>}/>
-
+      <Route path="/prebuiltanimations" element={<PrebuiltAnimations/>}/>
     </Routes>
     </>
   );
